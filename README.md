@@ -1,5 +1,5 @@
 # Calendario-FEMEC-OC
-import React, { useState } from "react"; import { Card, CardContent } from "@/components/ui/card"; import { Button } from "@/components/ui/button"; import { Input } from "@/components/ui/input"; import { Calendar } from "@/components/ui/calendar"; import { Bell, Search, CalendarDays, User, FileText, LogIn, Filter, PieChart } from "lucide-react"; import { motion } from "framer-motion";
+import React, { useState } from "react"; import { Card, CardContent } from "/components/ui/card"; import { Button } from "/components/ui/button"; import { Input } from "/components/ui/input"; import { Calendar } from "/components/ui/calendar"; import { Bell, Search, CalendarDays, User, FileText, LogIn, Filter, PieChart } from "lucide-react"; import { motion } from "framer-motion";
 
 const events = [ { date: "2025-05-25", title: "Aniversário Igreja Central", type: "Aniversário", location: "Igreja Central" }, { date: "2025-05-28", title: "Congresso de Jovens", type: "Evento", location: "Auditório Central" }, ];
 
